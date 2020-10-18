@@ -4,33 +4,51 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport"
-				content="width=device-width, initial-scale=1.0">
+		  content="width=device-width, initial-scale=1.0">
 	<title>Happy</title>
 
 	<link rel="icon"
-				href="./public/images/logo-icon.png">
+		  href="./public/images/logo-icon.png">
+	<link rel="stylesheet"
+		  href="./public/css/main.css">
+		<link rel="stylesheet"
+			  href="./public/css/animatios.css">
+		<link rel="stylesheet"
+			  href="./public/css/page-landing.css">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,800;1,300&display=swap"
+			rel="stylesheet">
+	
 </head>
 
 <body>
-	<header>
-		<img src="./public/images/logo.svg"
-				 alt="Logomarca da Happy">
-		<div>
 
-			<strong>Aquidabã</strong>
-			<p> Sergipe</p>
-		</div>
-		<main>
-			<h1>Leve felicidade pelo mundo</h1>
-			<section>
-				<p>Visite orfanatos e mude o dia de muitas crianças</p>
-				<a href="javascript:void(0)" title="Visite orfanatos">
-					<img src="public/images/arrow.svg"
+	<div id="page-landing">
+		<div id="container">
+			<header>
+				<img src="./public/images/logo.svg"
+					 alt="Logomarca da Happy"
+					 class="animate-up"
+					 id="logo">
+				<div class="location animate-up">
+
+					<strong>Aquidabã</strong>
+					<p> Sergipe</p>
+				</div>
+			</header>
+			<main>
+				<h1 class="animate-up">Leve felicidade pelo mundo</h1>
+				<section class="visit">
+					<p class="animate-up">Visite orfanatos e mude o dia de muitas crianças</p>
+					<a href="javascript:void(0)"
+					   title="Visite orfanatos" class="animate-up">
+						<img src="public/images/arrow.svg"
 							 alt="Ir para o mapa">
-				</a>
-			</section>
-		</main>
-	</header>
+					</a>
+				</section>
+			</main>
+
+		</div>
+	</div>
 </body>
 
 </html>
